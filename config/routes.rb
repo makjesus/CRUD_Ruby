@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   get 'home/index'
   root 'home#index'
   resources :posts
+  #redirect_to post_path(@post)
+
 
   
 end

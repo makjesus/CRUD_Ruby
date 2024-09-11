@@ -5,6 +5,17 @@ ruby "2.7.5"
 #gem install rubygems-update -v '3.2.3'  # Replace '3.2.3' with a compatible version
 
 gem 'spring'
+gem 'webpacker'
+gem 'rails-ujs'
+gem 'sass-rails', '>= 6'
+gem 'uglifier', '>= 1.3.0'
+gem 'sprockets-rails', '>= 3.2'
+
+
+
+
+
+
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8", ">= 7.0.8.4"
@@ -13,8 +24,9 @@ gem "rails", "~> 7.0.8", ">= 7.0.8.4"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
+source 'https://rubygems.org'
+#gem 'sqlite3', '~> 3.41'
 gem 'sqlite3', '~> 1.4'
-
 
 
 

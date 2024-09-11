@@ -5,6 +5,6 @@ class Post < ApplicationRecord
     validates :description, length: {minimum: 7}
 
     before_save do 
-        self.title = self.title + "Diego"
+        self.title = self.title + ""
   end
 end

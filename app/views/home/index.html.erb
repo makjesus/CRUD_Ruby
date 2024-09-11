@@ -3,7 +3,7 @@
 
 <% @posts.each do |post|  %>
 <% if post.description?%>    
-    <h1> <%= post.title %> </h1>
+    <h1> <%= link_to post.title, post %> </h1>
    <% end %>
  <% end %>
  
