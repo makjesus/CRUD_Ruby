@@ -7,9 +7,11 @@ ruby "2.7.5"
 gem 'spring'
 gem 'webpacker'
 gem 'rails-ujs'
-gem 'sass-rails', '>= 6'
 gem 'uglifier', '>= 1.3.0'
 gem 'sprockets-rails', '>= 3.2'
+gem 'sass-rails', '~> 6.0'
+
+
 
 
 
@@ -21,12 +23,15 @@ gem 'sprockets-rails', '>= 3.2'
 gem "rails", "~> 7.0.8", ">= 7.0.8.4"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+
 
 # Use sqlite3 as the database for Active Record
 source 'https://rubygems.org'
 #gem 'sqlite3', '~> 3.41'
 gem 'sqlite3', '~> 1.4'
+#gem 'sqlite3', '~> 1.7.3'
+gem 'my_engine', path: '/home/mrj2047/Documents/Projects_Ruby/crud_ruby/lib/my_engine'
+
 
 
 

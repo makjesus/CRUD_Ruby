@@ -13,6 +13,12 @@ module CrudRuby
     config.assets.enabled = true
     config.assets.precompile += %w( search.js )
     config.assets.version = '1.0'
+    # config/environments/development.rb
+    config.assets.debug = true
+
+
+
+
 
     # Configuration for the application, engines, and railties goes here.
     #
@@ -23,3 +29,6 @@ module CrudRuby
     # config.eager_load_paths << Rails.root.join("extras")
   end
 end
+
+
+
